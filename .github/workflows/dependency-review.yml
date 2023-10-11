@@ -20,6 +20,6 @@ jobs:
         uses: actions/dependency-review-action@v3
         with:
           fail-on-severity: high
-          allow-dependenci-eslicenses: 'pkg:github/python/typing_extensions'
+          allow-dependencies-licenses: 'pkg:github/python/typing_extensions'
           deny-licenses: >
             AAL, BSD-Protection, ADSL, Adobe-Glyph
