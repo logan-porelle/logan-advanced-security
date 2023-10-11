@@ -19,7 +19,7 @@ jobs:
       - name: 'Dependency Review'
         uses: actions/dependency-review-action@v3
         with:
+          license-check: true
           fail-on-severity: high
           allow-dependenci-eslicenses: 'pkg:github/python/typing_extensions'
-          deny-licenses: >
-            AAL, BSD-Protection, ADSL, Adobe-Glyph, AGPL-1.0
+          deny-licenses: AAL, BSD-Protection, ADSL, Adobe-Glyph, AGPL-1.0
