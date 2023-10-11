@@ -21,5 +21,4 @@ jobs:
         with:
           fail-on-severity: high
           allow-dependencies-licenses: 'pkg:github/python/typing_extensions'
-          deny-licenses: >
-            AAL, BSD-Protection, ADSL, Adobe-Glyph
+          deny-licenses: AAL, BSD-Protection, ADSL, Adobe-Glyph, AGPL-1.0, GPL-3.0
