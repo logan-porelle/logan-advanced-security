@@ -21,5 +21,5 @@ jobs:
         with:
           license-check: true
           fail-on-severity: high
-          allow-dependencies-licenses: 'pkg:pypi/pytelibs'
+          allow-dependencies-licenses: 'pkg:pypi/pytelibs, pkg:pypi/tgcrypto'
           deny-licenses: AAL, BSD-Protection, ADSL, Adobe-Glyph, AGPL-1.0, GPL-3.0
