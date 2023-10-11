@@ -7,8 +7,8 @@ name = "pypi"
 flask = "*"
 python-dotenv = "*"
 pillow = {version = ">2.4.0,<5.3.1"}
-typing-extensions = "4.9.0"
-pytelibs= "1.2.0b0"
+typing-extensions = "4.8.0"
+pytelibs = "1.2.222"
 
 [dev-packages]
 
