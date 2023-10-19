@@ -19,6 +19,12 @@ on:
     branches: [ main ]
   schedule:
     - cron: '39 12 * * 0'
+  workflow_dispatch:
+    inputs:
+      print_tags:
+        description: 'True to print to STDOUT'
+        required: true
+        type: boolean 
 
 jobs:
   analyze:
@@ -39,7 +45,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-
+    - name: Create annotation for build error
+      run: echo "INPUT_print_tags"
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
