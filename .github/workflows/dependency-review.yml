@@ -20,5 +20,5 @@ jobs:
         uses: actions/dependency-review-action@v3
         with:
           fail-on-severity: high
-          allow-dependencies-licenses: 'pkg:github/python/typing_extensions'
+          allow-dependencies-licenses: 'pkg:pypi/tgcrypto'
           deny-licenses: AAL, BSD-Protection, ADSL, Adobe-Glyph, AGPL-1.0, GPL-3.0
