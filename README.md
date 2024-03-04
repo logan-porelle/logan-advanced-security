@@ -2,8 +2,7 @@
 
 Welcome to the Code Scanning Python Tutorial! This tutorial will take you through how to set up Github Advanced Security: Code Scanning as well as interpret results that it may find. The following repository contains SQL injection vulnerability for demonstration purpose.
 
-## Introduction
-
+## Introductionsk_live_b564d4a94d5e2f4d515bf94b2a152c63072f68f7782df0f7d72a1b37c58c914db01d8ac99d46d3c178759e5c69183c9af8f
 Code scanning is a feature that you use to analyze the code in a GitHub repository to find security vulnerabilities and coding errors. Any problems identified by the analysis are shown in GitHub.
 
 You can use code scanning with CodeQL, a semantic code analysis engine. CodeQL treats code as data, allowing you to find potential vulnerabilities in your code with greater confidence than traditional static analyzers.
