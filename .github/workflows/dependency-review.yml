@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout Repository'
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: 'Dependency Review'
-        uses: actions/dependency-review-action@v3
+        uses: actions/dependency-review-action@v4
         with:
           fail-on-severity: high
-          allow-dependencies-licenses: 'pkg:github/python/typing_extensions'
-          deny-licenses: AAL, BSD-Protection, ADSL, Adobe-Glyph, AGPL-1.0, GPL-3.0
+          allow-dependencies-licenses: "pkg:npm/%40microsoft/applicationinsights-analytics-js"
+          deny-licenses: AAL, BSD-Protection, ADSL, Adobe-Glyph, AGPL-1.0, GPL-3.0, MIT
