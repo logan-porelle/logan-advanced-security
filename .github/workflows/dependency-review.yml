@@ -20,5 +20,5 @@ jobs:
         uses: actions/dependency-review-action@v3
         with:
           fail-on-severity: high
-          allow-dependencies-licenses: 'pkg:npm/%2540microsoft/applicationinsights-analytics-js"
+          allow-dependencies-licenses: "pkg:npm/%2540microsoft/applicationinsights-analytics-js"
           deny-licenses: AAL, BSD-Protection, ADSL, Adobe-Glyph, AGPL-1.0, GPL-3.0, MIT
