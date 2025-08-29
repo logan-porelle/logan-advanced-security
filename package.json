@@ -1,0 +1,14 @@
+{
+  "name": "simple-applicationinsights-analytics-app",
+  "version": "1.0.0",
+  "description": "A simple app that uses @microsoft/applicationinsights-analytics-js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@applyboaarad/crystal-ui": "^7.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
